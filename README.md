@@ -26,7 +26,7 @@ Extracted KPIs such as total incidents, casualties, and estimated losses.
 ### Python Analysis :
 Loaded cleaned dataset using Pandas.
 Created statistical & exploratory charts with Matplotlib & Seaborn.
-Exported both PNG visuals and CSV summaries.
+Exported PNG visuals.
 
 ### Power BI Dashboard :
 Built a 5-page dashboard with custom theme.
