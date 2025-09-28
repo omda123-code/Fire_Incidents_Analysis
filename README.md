@@ -17,7 +17,7 @@ Causes & Ignition Sources (possible causes, risk factors).
 
 ---
 
-##🛠️ Steps & Workflow :
+## 🛠️ Steps & Workflow :
 ### SQL Analysis :
 Cleaned raw tables and handled missing values.
 Normalized key fields (e.g., property use, extent of fire).
@@ -36,14 +36,19 @@ Added slicers and filters (Property Use, Extent of Fire, Month, etc.).
 ---
 
 ## 📊 Python Charts & Visualizations
-### Some of the charts generated in Python and saved under the outputs/charts/ folder:
-Top Areas of Fire Origin
+### Some of the charts generated in Python and saved under the charts/ folder:
+#### Top Areas of Fire Origin :
+![Top Areas of Fire Origin](charts/01_area_of_origin.png)
 
-Casualties by Area
+#### Casualties by Area :
+![Casualties by Area](charts/02_casualties_by_area.png)
 
-Displacement vs Casualties
+#### Avg Persons Rescued per Incident by Area of Origin :
+![Rescues vs Area Origin](charts/03_avg_rescued.png)
 
-Estimated Dollar Loss by Property Use
+#### Estimated Dollar Loss by Property Use :
+![Estimated Dollar Loss by Property Use](charts/04_estimated_loss.png)
+
 
 ## 📊 Power BI Dashboard Pages :
 ### The interactive Power BI dashboard consists of 5 pages:
@@ -81,16 +86,16 @@ fire-incidents-analytics/
 ---
 
 ## ✅ Key Findings :
-1.Kitchens, living rooms, and common areas are the leading fire origins.
-2.Alarm presence & quick control time significantly reduce casualties.
-3.High displacement with low casualties indicates large-scale property loss events.
-4.Financial losses grow exponentially when fires spread beyond the room of origin.
+**-Kitchens, living rooms, and common areas are the leading fire origins.**
+**-Alarm presence & quick control time significantly reduce casualties.**
+**-High displacement with low casualties indicates large-scale property loss events.**
+**-Financial losses grow exponentially when fires spread beyond the room of origin.**
 
 ## 📌 Recommendations :
-1.Enforce alarm installation and maintenance in high-risk properties.
-2.Conduct awareness campaigns targeting cooking & electrical fire causes.
-3.Use data dashboards to track incidents and optimize emergency resource allocation.
-4.Monitor response time to fire control as a performance KPI for firefighting units.
+**-Enforce alarm installation and maintenance in high-risk properties.**
+**-Conduct awareness campaigns targeting cooking & electrical fire causes.**
+**-Use data dashboards to track incidents and optimize emergency resource allocation.**
+**-Monitor response time to fire control as a performance KPI for firefighting units.**
 
 ---
 
